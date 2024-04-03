@@ -1,0 +1,59 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+*{
+	font-size: 20px;
+	padding: 10px;
+}
+ a{
+		text-decoration: underline;
+		color: aqua;
+	}
+
+.header h1{
+	font-weight: 800;
+	font-size: 30px;
+background-color: white;
+}
+.main {
+}
+.brand-ukraine {
+	color: rgb(91, 91, 25);
+}
+#brand-ing{
+	color: rgb(33, 193, 218);
+	font-weight: 700;
+}
+[class*="itle"] {
+background-color: cadetblue;
+}
+
+div.text {
+  text-decoration: underline;
+}
+.block__brand .brand__text{
+	text-decoration: line-through;
+}
+
+.brand__title {
+	color: blue
+}
+
+.list li{
+	color: rgb(175, 7, 127);
+}
+.title {
+	font-weight: 600;
+}
+.block__part *{
+color: red;
+}
+.brand__image img {
+	width: 800px;
+}
+.finish-about > p {
+	color: rgb(24, 219, 86);
+}
+.text-target{
+	color: rebeccapurple;
+}
