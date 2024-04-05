@@ -1,0 +1,163 @@
+/* шрифти */
+@font-face {
+	font-family: "Proxima ";
+	src: url("../fonts/ProximaNovaExCn-Regular.woff2") format("woff2"), 
+	url("../fonts/ProximaNovaExCn-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Proxima";
+	src: url("../fonts/ProximaNovaExCn-Semibold.woff2") format("woff2"), 
+	url("../fonts/ProximaNovaExCn-Semibold.woff")format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+/* Скидання стилів */
+@import url("reset.css");
+
+/*---------------------------------*/
+body{
+	font-family: Proxima Nova , sans-serif;
+}
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main{
+	flex: 1 1 auto;
+}
+/* ------------------ */
+
+[class*="__container"] {
+	max-width: 1087px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+.lessons__4-header {
+}
+.title__lessons {
+	font-size: 40px;
+	line-height: 1.333;/*-40/30-*/
+	text-align: center;
+	color: blue;
+	text-shadow: 3px 3px 3px #cdd70a;
+}
+.paragragh__first {
+}
+.paragragh__block {
+}
+.paragragh__title {
+font-size: 30px;
+text-transform: uppercase;
+font-weight: 600;
+color: #cdd70a;
+}
+.paragragh__text >p {
+	text-transform: capitalize;
+	color: #330ad7;
+	font-size: 20px;
+	font-weight: 600;
+}
+.paragragh__text + p {
+	letter-spacing: 3px;
+;
+}
+.part__second {
+}
+.part__block {
+}
+.part__sub-title {
+	text-align: right;
+	font-size: 40px;
+	text-transform: lowercase;
+	text-decoration: underline;
+	color: #330ad7;
+}
+.part__text {
+	line-height: 2.333;
+}
+.part__text > p{
+text-decoration: overline;
+}
+.part__text + p{
+	text-decoration: line-through;
+	}
+	.part__last  p{
+		text-decoration: underline;
+		}
+.last__one {
+}
+.last__block {
+}
+.last__sub-title {
+	letter-spacing: 40px;
+	text-shadow: 5px 5px 5px #330ad7;
+	color: #5247eb;
+	font-size: 30px;
+}
+.last__text >p {
+	word-spacing: 50px;
+}
+.block__last {
+text-align: center;
+}
+.link {
+	font-style: oblique;
+}
+.last__finish{
+	white-space: nowrap; 
+	text-decoration:line-through blue wavy;
+}
+
+.item__footer{
+text-align: center;
+font-size: 25px;
+color: blue;
+text-shadow: 3px 3px 3px #cdd70a;
+}
+/*--------------homework-----------------*/
+
+.block__one {
+}
+.block-one__title {
+	color: #2b2929;
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+.block-one__picture{
+	margin: 40px 0px 40px 0px;
+}
+.block-one__picture img {
+	border-radius: 8px;
+}
+.block-one__text {
+	line-height: 1.875;/*4-/16*/
+}
+/*--------------about-----------------*/
+.homework__container{
+
+
+}
+.block__two {
+	width: 100%;
+  
+  text-align: left;
+}
+.block-two__title {
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.2;
+	font-weight: 600;
+
+}
+.about__text {
+	line-height: 1.875;/*4-/16*/
+	font-weight: 400;
+}
