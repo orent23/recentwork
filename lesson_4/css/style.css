@@ -1,6 +1,6 @@
 /* шрифти */
 @font-face {
-	font-family: "Proxima Nova";
+	font-family: "Proxima ";
 	src: url("../fonts/ProximaNovaExCn-Regular.woff2") format("woff2"), 
 	url("../fonts/ProximaNovaExCn-Regular.woff") format("woff");
 	font-display: swap;
@@ -9,9 +9,9 @@
 }
 
 @font-face {
-	font-family: "Proxima Nova";
+	font-family: "Proxima";
 	src: url("../fonts/ProximaNovaExCn-Semibold.woff2") format("woff2"), 
-			url("../fonts/ProximaNovaExCn-Semibold.woff")format("woff");
+	url("../fonts/ProximaNovaExCn-Semibold.woff")format("woff");
 	font-display: swap;
 	font-weight: 700;
 	font-style: normal;
