@@ -62,7 +62,7 @@ body{
 .block__one {
 	margin-bottom: 40px;
 }
-.block-one__title {
+h1 {
 	font-weight: 600;
 	line-height:  1.875;
   font-size: 40px;
@@ -82,7 +82,7 @@ body{
 	line-height:  1.875;
 }
 .block-one__text p{
-padding-bottom: 20px;
+margin-bottom: 20px;
 }
 
 /*--------------block two-----------------*/
@@ -100,7 +100,7 @@ padding-bottom: 20px;
 	margin-bottom: 40px;
 }
 .list__item  {
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	line-height:  1.875;
 background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
 	padding-left: 40px;
@@ -123,11 +123,9 @@ background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
 }
 .eduplay__content {
 	display: inline-block;
-    padding-right: 66.5px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-size: 16px;
-    vertical-align: middle;
+	padding:40px 66.5px 30px 30px ;
+  font-size: 16px;
+ vertical-align: middle;
 }
 .eduplay__text {
 	max-width: 600px;
@@ -138,7 +136,7 @@ background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
   font-weight: 700;
   line-height: 1.2;
   color: #fff;
-	padding-bottom: 24px;
+	margin-bottom: 24px;
 }
 
 .eduplay__text p{
@@ -173,7 +171,7 @@ background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
 
 	/*-----------collection-------------*/
 	.collection__section {
-		background-color: rgba(30, 40, 50, 0.05);
+
 		font-family: Roboto;
 		color: #000;
 		background:url("../img/back-11.png ") 0 450px / 232px 136px no-repeat, rgba(30, 40, 50, 0.05) url("../img/back-22.png ")right 372px / 195px 262px no-repeat;
@@ -186,6 +184,7 @@ background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
 	.collection__content {
 		display: inline-block;
 		vertical-align: middle;
+		padding: 40px;
 	
 	}
 	  .collection__text {
@@ -202,7 +201,7 @@ background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
 		font-size: 74px;
 		font-weight: 300;
 		line-height: 0.74;
-		padding-bottom: 52px;
+	margin-bottom: 52px;
 	}
 	.collection__text p{
 	margin-bottom: 66px;
