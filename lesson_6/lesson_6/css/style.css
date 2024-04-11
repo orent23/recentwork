@@ -1,0 +1,329 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* шрифти */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+@font-face {
+	font-family: "Proxima Nova Rg";
+	src: url("../fon/ProximaNova-Regular.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Proxima Nova Lt";
+	src: url("../fon/ProximaNova-Semibold.woff2") format('woff2');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+
+/*---------------------------------*/
+body{
+  font-family: "Proxima Nova Rg","Proxima Nova Lt",sans-serif;
+	color: #2b2929;
+}
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main{
+	flex: 1 1 auto;
+}
+/* ------------------ */
+
+[class*="__container"] {
+	max-width: 1087px;
+	margin: 0px auto;
+	padding-left: 17px;
+}
+.homework{
+
+}
+.title__lessons {
+	font-size: 40px;
+	line-height: 1.333;/*-40/30-*/
+	text-align: center;
+	color: rgb(177, 89, 13);
+	text-shadow: 3px 3px 3px #f89603;
+}
+
+.title__lessons{
+	margin-bottom: 50px;
+}
+/*--------------homework-----------------*/
+
+.block__one {
+	margin-bottom: 40px;
+}
+h2 {
+	font-weight: 600;
+	line-height:  1.875;
+  font-size: 40px;
+	margin-bottom: 40px;
+}
+.block__one-link {
+	margin-bottom: 40px;
+}
+.block-one__picture img {
+	border-radius: 8px;
+	
+}
+.block-one__picture {
+
+}
+.block-one__text {
+	line-height:  1.875;
+}
+.block-one__text p{
+margin-bottom: 20px;
+}
+
+/*--------------block two-----------------*/
+.block__two {
+	margin-bottom: 100px;
+}
+.block-two__sub-title {
+	font-size: 20px;
+	line-height: 1.4;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.list {
+	margin-bottom: 40px;
+}
+.list__item  {
+	margin-bottom: 20px;
+	line-height:  1.875;
+background: url("../img/marko.png") 0 0 / 26.7px no-repeat;
+	padding-left: 40px;
+}
+.block-two__end {
+	line-height:  1.875;
+}
+
+/*--------------education-----------------*/
+.eduplay__section{
+	background: url("../img/back_letter.png") ;
+	margin-bottom: 100px;
+
+}
+.eduplay__block {
+	max-width: 1310px;
+	margin: 0 auto;
+}
+.eduplay__wrap{
+}
+.eduplay__content {
+	display: inline-block;
+	padding:40px 66.5px 30px 30px ;
+  font-size: 16px;
+ vertical-align: middle;
+}
+.eduplay__text {
+	max-width: 600px;
+}
+.eduplay__text h3{
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+	margin-bottom: 24px;
+}
+
+.eduplay__text p{
+	width: 600px;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #fff;
+	padding-bottom: 24px;
+}
+.image__wrap {
+	display: inline-block;
+	max-width: 100%;
+	padding: 0 66.5px;
+	vertical-align: middle;
+}
+
+.eduplay__link{
+		width: 217px;
+		height: 48px;
+		padding: 11.5px 20px;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+	.image__wrap {
+		height: 493.1px;
+		width: 515px;
+		margin: 0 32px 36.9px 0;
+	}
+
+
+	/*-----------collection-------------*/
+	.collection__section {
+
+		font-family: Roboto;
+		color: #000;
+		background:url("../img/back-11.png ") 0 450px / 232px 136px no-repeat, rgba(30, 40, 50, 0.05) url("../img/back-22.png ")right 372px / 195px 262px no-repeat;
+		margin-bottom: 100px;
+	}
+	.collection__block {
+		max-width: 1310px;
+	margin: 0 auto;
+	}
+	.collection__content {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 40px;
+	
+	}
+	  .collection__text {
+			width: 682px;
+			margin-right: 98px;
+		}
+		.collection__text p{
+			font-size: 30px;
+			line-height: 1.83;
+		}
+	
+	
+	.collection__text h4{
+		font-size: 74px;
+		font-weight: 300;
+		line-height: 0.74;
+	margin-bottom: 52px;
+	}
+	.collection__text p{
+	margin-bottom: 66px;
+	}
+	.collection__button  {
+		font-size: 29px;
+    font-weight: 400;
+		padding: 19px 36px 19px 77px;
+		background-color: #1e2832;
+		vertical-align: middle;
+		background-image: url("../img/icon.png");
+		background-repeat: no-repeat;
+		background-position: 32px 20px;
+		background-size: 30px 30px;
+		color: #fff;
+		text-align: center;
+
+	}
+
+	.collection__image {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 70px 18px 20px 0;
+		border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 160px 0;
+		max-width: 424px;
+    width: 100%;
+    height: 542px;
+	}
+	.collection__image img{
+		border-radius: 160px 0;
+    margin: -20px 0 0 -18px;
+}
+
+/*---------------training----------*/
+.training {
+	font-size: 30px;
+}
+.training__block {
+	max-width: 1310px;
+	margin: 0 auto;
+}
+.training__border {
+	
+	
+}
+.training__try-1 {
+padding: 15px;
+	border: 10px solid #6f1cce;
+margin-bottom: 100px;
+	background-color: rgb(200, 20, 146);
+}
+
+.training__try-2{
+	padding: 5px 10px 15px 20px;
+	border-top: 10px solid rgb(239, 234, 234);
+	border-right: 20px dashed #6f1cce;
+	border-bottom: 30px dotted #1a13e7;
+border-left:40px double #b0a112;
+background-color: rgb(169, 76, 141);
+margin-bottom: 100px;
+}
+
+
+.training__try-3{
+	outline: 10px solid yellow;
+background-color: rgb(98, 82, 218);
+margin-bottom: 100px;
+padding: 20px;
+}
+.training__try-4{
+background-color: rgb(98, 82, 218);
+border-radius: 20px 35px 40px 100px;
+margin-bottom: 100px;
+padding: 25px;
+}
+.training__try-5{
+	background-color: rgb(42, 232, 93);
+	border-radius: 20px ;
+	box-shadow: inset 0 0 10px 0px rgba(0,0,0,0.8), 5px 7px 5px 10px rgba(123,255,0,0.8);
+	margin-bottom: 100px;
+	padding: 25px;
+	}
+	.training__try-6{
+		background: linear-gradient(90deg, rgba(70,20,124,1) 0%, rgba(14,119,118,1) 7%, rgba(103,46,133,1) 20%, rgba(81,246,219,1) 37%, rgba(160,73,200,1) 64%, rgba(200,53,175,1) 80%, rgba(133,27,199,1) 100%);
+		border-radius: 40px ;
+		margin-bottom: 100px;
+		padding: 25px;
+		}
+	
+	.training__try-7{
+		background-image: url("../img/room.png");
+		background-repeat: no-repeat;
+background-attachment: fixed;
+background-position:  center;
+margin-bottom: 100px;
+	}
+
+	.training__image {
+		background-size: auto 400px;
+	}
+
+.center-block {
+	background-color: #794f45;
+	padding: 15px;
+	color: #fff;
+	margin: 0 auto;
+	max-width: 200px;
+
+		margin-bottom: 100px;
+		padding: 25px;
+		}
+
+.inline {
+	outline: 5px solid rgb(0, 255, 34);
+	margin-bottom: 100px;
+}
+
+.circle{
+	width: 100px;
+	height: 100px;
+	background-color: #b0a112;
+	border-radius: 50%;
+	margin-bottom: 100px;
+}
