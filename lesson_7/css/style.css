@@ -283,7 +283,7 @@ background-position: 5px 0;
 .training__text-5 p:not(:last-child){
 margin-bottom: 20px;
 }
-.training__text-5:has(p){
+.training__text-5 {
 	background-color: #b95813;
 	color: #fff;
 	}
@@ -430,7 +430,7 @@ margin-top:20px;
 	margin-left: 181px;
 	margin-bottom: 120px;
 }
-.about__item:not (:last-child) {
+.about__item:not(:last-child) {
 	margin-right: 60px;
 }
 .about__item{
