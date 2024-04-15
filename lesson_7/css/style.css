@@ -634,3 +634,60 @@ vertical-align: middle;
 	box-shadow: 5px 5px 5px rgb(35, 139, 171);
 	margin-left: -12px;
 }
+
+
+/*------------footer------------*/
+.footer {
+	text-align: center;
+	background-color: rgb(35, 139, 171);
+}
+.footer__block {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.item__footer {
+	font-size: 30px;
+	color: #fff;
+	padding: 50px 50px;
+}
+
+.footer__contact{
+	display: inline-block;
+	margin-right: 80px;
+
+}
+.footer__contact{
+	
+}
+.footer__contact-3{
+	
+}
+
+.contact__footer-1::before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url("../img/contact-1.png") 0 0 no-repeat;
+color: #fff;
+margin-right: 20px;
+vertical-align: middle;
+}
+.contact__footer-2::before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url("../img/contact-2.png") 0 0 no-repeat;
+color: #fff;
+margin-right: 20px;
+vertical-align: middle;
+}
+.contact__footer-3::before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url("../img/contact-3.png") 0 0 no-repeat;
+color: #fff;
+margin-right: 20px;
+vertical-align:middle;
+}
+
