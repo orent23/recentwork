@@ -13,7 +13,6 @@
 	font-style: normal;
 	font-display: swap;
 }
-
 @font-face {
 	font-family: "Proxima Nova Lt";
 	src: url("../fon/ProximaNova-Semibold.woff2") format('woff2');
@@ -21,9 +20,6 @@
 	font-weight: 600;
 	font-style: normal;
 }
-
-
-
 /*---------------------------------*/
 body{
   font-family: "Proxima Nova Rg","Proxima Nova Lt",sans-serif;
@@ -37,12 +33,10 @@ body{
 	flex: 1 1 auto;
 }
 /* ------------------ */
-
 [class*="__container"] {
 	max-width: 1290px;
 	margin: 0px auto;
 }
-
 /*--------------HEADER-------------------*/
 .header {
 	margin-bottom: 70px;
@@ -58,7 +52,6 @@ body{
 	padding-top: 25px;
     position: relative;
     z-index: 2;
-
 }
 .header__maine {
 	text-align: center;
@@ -81,19 +74,11 @@ body{
 .section__logo {
     margin-right: 30px;
 }
-
-.title {
-}
-.header__section {
-}
-.section {
-}
 .section__logo {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 30px;
 }
-
 .section__link {
 }
 .section__button {
@@ -116,8 +101,7 @@ body{
 	vertical-align: middle; 
 
 }
-.search {
-}
+
 .search__item {
 	display: inline-block;
 	vertical-align: middle; 
@@ -136,7 +120,6 @@ body{
 	font-size: 16px;
 	font-style: normal;        
 	font-weight: 400;
-
 }
 .search__image{
 	display: inline-block;
@@ -201,7 +184,6 @@ body{
 	vertical-align: middle;
 	display: inline-block;
 }
-
 .menu__link {
     background-color: #fff;
     width: 100%;
@@ -228,7 +210,6 @@ body{
 }
 .menu__link:hover::after {
 	background: url("../img/arow-1.svg") 0 0 no-repeat; /
-	transform: scale(1.5);
 }
 .sub-menu {
 	display: none;
@@ -250,16 +231,13 @@ body{
 	top: 8px;
 	left: 0;
 	}
-	
 .sub-menu__list {
 	height: 100%;
 	position: relative;
 	overflow-y: auto;
 	margin-left: 4px;
 }
-
 .sub-menu__item {
-	
 	background-color: #fff;
 }
 .sub-menu__item:hover {
@@ -270,11 +248,6 @@ body{
 	padding: 15px 15px ;
 	font-size: 19px;
 	line-height: 1.2;
-}
-
-.contacts {
-}
-.contacts__icon {
 }
 .contacts__image {
 	margin-right: 20px;
@@ -323,23 +296,10 @@ box-shadow: 2px 2px 2px rgb(45, 44, 44);
 border-radius: 50%;
 margin-bottom: 3px;
 }
-
-
-
-
-.page {
-}
 .page__container {
 	max-width: 1335px;
     margin: 0 auto;
     padding: 0px 5px;
-}
-.page__popular {
-	
-}
-.popular-page {
-}
-.popular-page__list {
 }
 .list {
 }
@@ -399,9 +359,6 @@ margin-bottom: 3px;
 	max-height: 300px;
 	height: 100%;
 }
-
-
-/*-------------article-------------*/
 /*------------Article-------------*/
 .article {
 	padding-top: 75px;
@@ -481,18 +438,10 @@ background: url("../img/marko.svg") 2.5px 2.5px / 28px no-repeat;
 .image:hover::before {
 	opacity: 0;
 }
-
-
 /*-----product-card-----------*/
-.prodact__card{
-	
-}
-.card-prodact__title {
-}
 .card-prodact__list {
 	display: inline-block;
 }
-
 .card__prodact {
 	display: inline-block;
 	vertical-align: middle; 
@@ -529,10 +478,8 @@ margin-bottom: 10px;
 .card-prodact__image {
 	max-width: 100%;
 }
-
 .card-prodact__link:hover {
 	content: "";
-	
 	background-color: #000;
 	opacity: 0.5;
 	transition: all 0.3s;
