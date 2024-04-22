@@ -208,9 +208,6 @@ body{
 	top: 18px;
 	transition: all 0.5s;
 }
-.menu__link:hover::after {
-	background: url("../img/arow-1.svg") 0 0 no-repeat; /
-}
 .sub-menu {
 	display: none;
 	position: absolute;
