@@ -278,7 +278,6 @@ display: inline-flex;
 }
 
 .lang__link:hover{
-	transform: scale(1.2);
 	color:  hsl(36, 78%, 56%);;
 }
 @media (max-width:920px){
