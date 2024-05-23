@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>lesson 15</title>
+	</head>
+	<body>
+<div class="wrapper">
+	<!--HEADER-->
+	<header class="header">
+		<!--overlay-->
+		<button class="header__overlay" type="reset" tabindex="-1" form="burger"></button>
+		<button class="header__overlay" type="reset" tabindex="-1" form="catalog"></button>
+
+<!--HEADER__TOP-->
+<div class="header__top">
+	<div class="header__container">
+		<!--nav-->
+<div class="header__nav nav">
+	<ul class="nav__list">
+		<li class="nav__item">Про нас</li>
+		<li class="nav__item">Оплата</li>
+		<li class="nav__item">Доставка та збірка</li>
+		<li class="nav__item">Відгуки</li>
+		<li class="nav__item">Блог</li>
+		<li class="nav__item">Контакти</li>
+	</ul>
+</div>
+	<!--box-->
+<div class="header__box">
+	<div class="header__help help">
+		<div class="help__label">Допомога і консультація:</div>
+		<ul class="help__list">
+<li class="help__item">
+	<a href="#" class="help__link">
+		<img src="img/icons/whatsapp.svg" alt="watsap"></a>
+</li>
+<li class="help__item">
+	<a href="#" class="help__link">
+		<img src="img/icons/telegram.svg" alt="watsap">
+	</a>
+</li>
+<li class="help__item">
+	<a href="#" class="help__link">
+		<img src="img/icons/viber.svg" alt="watsap" >
+	</a>
+</li>
+		</ul>
+	</div>
+<div class="header__lang lang">
+	<input class="lang__trigger" id="lang" type="checkbox">
+	<label class="lang__label" for="lang">UA</label>
+<ul class="lang__list">
+	<li class="lang__item">
+		<a class="lang__link" href="#">eng</a>
+	</li>
+	<li class="lang__item">
+		<a class="lang__link" href="#">pl</a>
+	</li>
+</ul>
+
+</div>
+</div>
+	</div>
+</div>
+<!---------------------------------------------------------------------------->
+		<!--HEADER__MIDDLE-->
+<div class="header__middle">
+	<div class="header__container">
+		<a href="#" class="header__krovato">
+			<img src="img/lebel.svg" alt="krotavto">
+		</a>	
+		<!--catalog-->
+<form class="header__catalog catalog" id="catalog">
+		<input class="catalog__trigger" id="trigger-catalog" type="checkbox">
+		<label class="catalog__button button" for="trigger-catalog">Каталог</label>
+		<div class="catalog__popup">
+<ul class="catalog__list">
+	<!--ліжка-->
+	<li class="catalog__item">
+		<input class="catalog__input" id="beds" type="radio" name="catalog">
+		<label class="catalog__label" for="beds">
+			<a class="catalog__link" href="#">
+				<img src="img/lebel/lebel-1.svg" alt="label"> Ліжка</a></label>
+<div class="catalog__panel">
+<div class="catalog__gasket">
+	<ul class="catalog__sub-catalog sub-catalog">
+		<li class="sub-catalog__item">
+			<a class="sub-catalog__link" href="#">Ліжка від Krovato</a>
+		</li>
+		<li class="sub-catalog__item">
+			<a class="sub-catalog__link" href="#">Ліжка від з підіймальним механізмом</a>
+		</li>
+		<li class="sub-catalog__item">
+			<a class="sub-catalog__link" href="#">Ліжка односпальні</a>
+		</li>
+		<li class="sub-catalog__item">
+			<a class="sub-catalog__link" href="#">Ліжка двохспальні</a>
+		</li>
+		<li class="sub-catalog__item">
+			<a class="sub-catalog__link" href="#">Ліжка для тещі</a>
+		</li>
+		<li class="sub-catalog__item">
+			<a class="sub-catalog__link" href="#">Ліжка для друга</a>
+		</li>
+	</ul>
+</div>
+</div>
+	</li>
+		<!--матраси-->
+		<li class="catalog__item">
+			<input class="catalog__input" id="beds" type="radio" name="catalog">
+			<label class="catalog__label" for="beds">
+				<a class="catalog__link" href="#">
+					<img src="img/lebel/lebel-2.svg" alt="label"> Матраси</a></label>
+	<div class="catalog__panel">
+	<div class="catalog__gasket">
+		<ul class="catalog__sub-catalog sub-catalog">
+			<li class="sub-catalog__item">
+				<a class="sub-catalog__link" href="#">Матрасивід Krovato</a>
+			</li>
+			<li class="sub-catalog__item">
+				<a class="sub-catalog__link" href="#">Матраси від з підіймальним механізмом</a>
+			</li>
+			<li class="sub-catalog__item">
+				<a class="sub-catalog__link" href="#">Матраси односпальні</a>
+			</li>
+			<li class="sub-catalog__item">
+				<a class="sub-catalog__link" href="#">Матраси двохспальні</a>
+			</li>
+			<li class="sub-catalog__item">
+				<a class="sub-catalog__link" href="#">Матраси для тещі</a>
+			</li>
+			<li class="sub-catalog__item">
+				<a class="sub-catalog__link" href="#">Матраси для друга</a>
+			</li>
+		</ul>
+	</div>
+	</div>
+		</li>
+			<!--Дивани-->
+			<li class="catalog__item">
+				<input class="catalog__input" id="beds" type="radio" name="catalog">
+				<label class="catalog__label" for="beds">
+					<a class="catalog__link" href="#">
+						<img src="img/lebel/lebel-3.svg" alt="label"> Дивани</a></label>
+		<div class="catalog__panel">
+		<div class="catalog__gasket">
+			<ul class="catalog__sub-catalog sub-catalog">
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Дивани від Krovato</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Дивани від з підіймальним механізмом</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Дивани односпальні</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Дивани двохспальні</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Дивани для тещі</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Дивани для друга</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+			</li>
+			<!--Шкафи-->
+			<li class="catalog__item">
+				<input class="catalog__input" id="beds" type="radio" name="catalog">
+				<label class="catalog__label" for="beds">
+					<a class="catalog__link" href="#">
+						<img src="img/lebel/lebel-4.svg" alt="label"> Шкафи</a></label>
+		<div class="catalog__panel">
+		<div class="catalog__gasket">
+			<ul class="catalog__sub-catalog sub-catalog">
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Шкафи від Krovato</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Шкафивід з підіймальним механізмом</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Великі шкафи</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Малі шкафи</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Гардеробні</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Просто шкафи</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+			</li>
+			<!--Шкафи-->
+			<li class="catalog__item">
+				<input class="catalog__input" id="beds" type="radio" name="catalog">
+				<label class="catalog__label" for="beds">
+					<a class="catalog__link" href="#">
+						<img src="img/lebel/lebel-5.svg" alt="label"> Комоди</a></label>
+		<div class="catalog__panel">
+		<div class="catalog__gasket">
+			<ul class="catalog__sub-catalog sub-catalog">
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Комоди від Krovato</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Комодивід з підіймальним механізмом</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">ВеликіКомоди</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Малі Комоди</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Комоди в офіс</a>
+				</li>
+				<li class="sub-catalog__item">
+					<a class="sub-catalog__link" href="#">Просто Комоди</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+			</li>
+				<!--Тумби-->
+				<li class="catalog__item">
+					<input class="catalog__input" id="beds" type="radio" name="catalog">
+					<label class="catalog__label" for="beds">
+						<a class="catalog__link" href="#">
+							<img src="img/lebel/lebel-6.svg" alt="label"> Тумби</a></label>
+			<div class="catalog__panel">
+			<div class="catalog__gasket">
+				<ul class="catalog__sub-catalog sub-catalog">
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Тумбивід Krovato</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Тумби з підіймальним механізмом</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Великі Тумби</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Малі Тумби</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Тумби в офіс</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Просто Тумби</a>
+					</li>
+				</ul>
+			</div>	
+			</div>
+				</li>
+				<!--Столи-->
+				<li class="catalog__item">
+					<input class="catalog__input" id="beds" type="radio" name="catalog">
+					<label class="catalog__label" for="beds">
+						<a class="catalog__link" href="#">
+							<img src="img/lebel/lebel-7.svg" alt="label"> Столи </a></label>
+			<div class="catalog__panel">
+			<div class="catalog__gasket">
+				<ul class="catalog__sub-catalog sub-catalog">
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Столи від Krovato</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Столи з підіймальним механізмом</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Столи Тумби</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Столи Тумби</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Столи в офіс</a>
+					</li>
+					<li class="sub-catalog__item">
+						<a class="sub-catalog__link" href="#">Просто Столи</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+				</li>
+</ul>
+		</div>
+	</a>
+</form>
+<!---form-->
+<form class="header__search search" method="get">
+<input class="search__field" type="search" name="search" placeholder="пошук товарів">
+<button class="search__submit" type="submit" title="шукати"></button>
+</form>
+<!---phone-->
+<div class="header__phone phone">
+<div class="phone__mask">
+	<div class="phone__head">
+		<input class="phone__icon button-round" type="checkbox" name="all-phones" title="Усі телефони">
+		<div class="phone__heart">
+			<p class="phone__schedule">Щодня з 9:00 до 18:00</p>
+			<ul class="phone__list">
+				<li class="phone__item"><a class="phone__link " href="tel:+380679294545">067 929-45-45</a></li>
+				<li class="phone__item"><a class="phone__link" href="tel:+0501334545">050 133-45-45</a></li>
+				<li class="phone__item"><a class="phone__link" href="tel:+0931707545">093 170-75-45</a></li>
+			</ul>
+		</div>
+		<input class="phone__trigger" type="checkbox" name="all-phones" title="Усі телефони">
+	</div>
+</div>
+</div>
+<!---action-->
+<div class="header__action">
+	<input class="header__toggle-search button-round" type="checkbox" title="Перемкнути пошук">
+	<button class="header__like button__round" type="button" title="like"> </button>
+	<button class="header__basket  button__round" type="button" title="basket"> </button>
+</div>
+<!---header__burger-->
+<form class="header__burger burger" id="burger">
+	<input class="burger__trigger" id="burger-trigger" title="Перемкнути меню" type="checkbox">
+	<label class="burger__icon" for="burger-trigger"><span class="burger__line"></span></label>
+</form>
+	</div>
+</div>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+		<!---HEADER__bottom-->
+		<div class="header__bottom">
+			<div class="header__container">
+				<!--list-1-->
+				<div class="header__menu">
+<ul class="header__list list-header">
+	<li class="list-header__item">
+		<a class="list-header__link list-header__link--icon--star" href="#">Акції</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link list-header__link--icon--sale" href="#">Розпродаж</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link list-header__link--icon--credit" href="#">Купити в кредит</a>
+	</li>
+</ul>
+				<!--list-2-->
+<ul class="header__list list-header">
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Дитяча</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Кухня</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Ванна</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Спальня</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Передпокій</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Вітальня</a>
+	</li>
+	<li class="list-header__item">
+		<a class="list-header__link" href="#">Офіс</a>
+	</li>
+</ul>
+			</div>
+			</div>
+		</div>
+	</header>
+	<!--MAIN-->
+<section class="main__categories categories">
+<div class="categories__container">
+	<div class="categories__title title">
+		<h1 class="title__main">Популярні категорії</h1>
+		<div class="categories__cards">
+<a class="categories__card card-category" href="#">
+<div class="card-category__header">
+	<div class="card-category__label">Ліжка</div>
+	<div class="card-category__number">54</div>
+</div>
+	<div class="card-category__picture">
+		<img src="img/categoreis/icon-1.png" alt="picture">
+	</div>
+</a>
+<!--2-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Матраци</div>
+		<div class="card-category__number">30</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-2.png" alt="picture">
+		</div>
+	</a>
+	<!--3-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">М'які меблі</div>
+		<div class="card-category__number">197</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-3.png" alt="picture">
+		</div>
+	</a>
+		<!--4-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Шафи</div>
+		<div class="card-category__number">20</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-4.png" alt="picture">
+		</div>
+	</a>
+		<!--5-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Комоди</div>
+		<div class="card-category__number">30</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-5.png" alt="picture">
+		</div>
+	</a>
+	<!--6-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Тумби</div>
+		<div class="card-category__number">80</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-6.png" alt="picture">
+		</div>
+	</a>
+		<!--7-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Столи</div>
+		<div class="card-category__number">20</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-7.png" alt="picture">
+		</div>
+	</a>
+	<!--8-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Стільці </div>
+		<div class="card-category__number">90</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-8.png" alt="picture">
+		</div>
+	</a>
+	<!--9-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Меблеві стіни</div>
+		<div class="card-category__number">90</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-9.png" alt="picture">
+		</div>
+	</a>
+	<!--10-->
+<a class="categories__card card-category" href="#">
+	<div class="card-category__header">
+		<div class="card-category__label">Кухні</div>
+		<div class="card-category__number">80</div>
+	</div>
+		<div class="card-category__picture">
+			<img src="img/categoreis/icon-10.png" alt="picture">
+		</div>
+	</a>
+		</div>
+
+	</div>
+</div>
+</section>
+	<!--Popular-->
+<section class="main__popular popular">
+	<div class="popular__container">
+		<div class="popular__head head-title">
+			<h2 class="head-title__popular">Найпопулярніші товари</h2>
+			<a href="#" class="head__link">Дивитись всі</a>
+	</div>
+<div class="popular__cards">
+		<!--1-->
+<div class="popular__card card-pop">
+<div class="card__content">
+	<a class="card__picture" href="#">
+		<img src="img/popular/pop_bad-1.jpg" alt="bad">
+	</a>
+<div class="card__size">Розмір: 61 x 184 x 2130 мм</div>
+<div class="card__title">Ліжко Спарта / Sparta з підйомним механізмом</div>
+<div class="card__available">В наявності</div>
+</div>
+<div class="card__footer">
+	<div class="card__offer">
+		<p class="card__previous">25 400 грн</p>
+		<span class="card__carent">15 400 грн.</span>
+	</div>
+
+<div class="card__acions">
+	<button class="card__favorite button-round" type="button" title="в обрані"></button>
+	<button class="card__basket button-round" type="button" title="в обрані"></button>
+</div>
+
+
+</div>
+</div>
+	<!--2-->
+	<div class="popular__card card-pop">
+		<div class="card__content">
+			<a class="card__picture" href="#">
+				<img src="img/popular/pop_bad-2.jpg" alt="bad">
+			</a>
+		<div class="card__size">Розмір: 61 x 184 x 2130 мм		</div>
+		<div class="card__title">Ліжко Аргон з підйомним механізмом</div>
+		<div class="card__available">В наявності</div>
+		</div>
+		<div class="card__footer">
+			<div class="card__offer">
+				<p class="card__previous">21 400 грн</p>
+				<span class="card__carent">45 400 грн.</span>
+			</div>
+		
+		<div class="card__acions">
+			<button class="card__favorite button-round" type="button" title="в обрані"></button>
+			<button class="card__basket button-round" type="button" title="в обрані"></button>
+		</div>
+	
+		</div>
+		</div>
+	<!--3-->
+	<div class="popular__card card-pop">
+		<div class="card__content">
+			<a class="card__picture" href="#">
+				<img src="img/popular/pop_bad-3.jpg" alt="bad">
+			</a>
+		<div class="card__size">Розмір: 61 x 184 x 2130 мм</div>
+		<div class="card__title">Ліжко Престиж з підйомним механізмом</div>
+		<div class="card__available">В наявності</div>
+		</div>
+		<div class="card__footer">
+			<div class="card__offer">
+				<p class="card__previous">11 400 грн</p>
+				<span class="card__carent">25 400 грн.</span>
+			</div>
+		
+		<div class="card__acions">
+			<button class="card__favorite button-round" type="button" title="в обрані"></button>
+			<button class="card__basket button-round" type="button" title="в обрані"></button>
+		</div>
+		
+		
+		</div>
+		</div>
+<!--4-->
+<div class="popular__card card-pop">
+	<div class="card__content">
+		<a class="card__picture" href="#">
+			<img src="img/popular/pop_bad-4.jpg" alt="bad">
+		</a>
+	<div class="card__size">Розмір: 61 x 184 x 2130 мм</div>
+	<div class="card__title">Диван Токіо-2</div>
+	<div class="card__available">В наявності</div>
+	</div>
+	<div class="card__footer">
+		<div class="card__offer">
+			<p class="card__previous">61 400 грн</p>
+			<span class="card__carent">45 400 грн.</span>
+		</div>
+	
+	<div class="card__acions">
+		<button class="card__favorite button-round" type="button" title="в обрані"></button>
+		<button class="card__basket button-round" type="button" title="в обрані"></button>
+	</div>
+	
+	
+	</div>
+	</div>
+<!--5-->
+<div class="popular__card card-pop">
+	<div class="card__content">
+		<a class="card__picture" href="#">
+			<img src="img/popular/pop_bad-5.jpg" alt="bad">
+		</a>
+	<div class="card__size">Розмір: 61 x 184 x 2130 мм</div>
+	<div class="card__title">Матрац Largo SLIM / Ларго Слім</div>
+	<div class="card__available">В наявності</div>
+	</div>
+	<div class="card__footer">
+		<div class="card__offer">
+			<p class="card__previous">12 400 грн</p>
+			<span class="card__carent">9 400 грн.</span>
+		</div>
+	
+	<div class="card__acions">
+		<button class="card__favorite button-round" type="button" title="в обрані"></button>
+		<button class="card__basket button-round" type="button" title="в обрані"></button>
+	</div>
+	
+	
+	</div>
+	</div>
+<!--6-->
+<div class="popular__card card-pop">
+	<div class="card__content">
+		<a class="card__picture" href="#">
+			<img src="img/popular/pop_bad-6.jpg" alt="bad">
+		</a>
+	<div class="card__size">РМатрац ARGENTUM AMALTEA / Аргентум Амалті</div>
+	<div class="card__available">В наявності</div>
+	</div>
+	<div class="card__footer">
+		<div class="card__offer">
+			<p class="card__previous">24 400 грн</p>
+			<span class="card__carent">21 400 грн.</span>
+		</div>
+	
+	<div class="card__acions">
+		<button class="card__favorite button-round" type="button" title="в обрані"></button>
+		<button class="card__basket button-round" type="button" title="в обрані"></button>
+	</div>
+	
+	
+	</div>
+	</div>
+<!--7-->
+	<div class="popular__card card-pop">
+		<div class="card__content">
+			<a class="card__picture" href="#">
+				<img src="img/popular/pop_bad-7.jpg" alt="bad">
+			</a>
+		<div class="card__size">Диван Браво</div>
+		<div class="card__available">В наявності</div>
+		</div>
+		<div class="card__footer">
+			<div class="card__offer">
+				<p class="card__previous">14 400 грн</p>
+				<span class="card__carent">11 400 грн.</span>
+			</div>
+		
+		<div class="card__acions">
+			<button class="card__favorite button-round" type="button" title="в обрані"></button>
+			<button class="card__basket button-round" type="button" title="в обрані"></button>
+		</div>
+		
+		
+		</div>
+		</div>
+	<!--8-->
+	<div class="popular__card card-pop">
+		<div class="card__content">
+			<a class="card__picture" href="#">
+				<img src="img/popular/pop_bad-8.jpg" alt="bad">
+			</a>
+		<div class="card__size">Ліжко МК-5</div>
+		<div class="card__available">В наявності</div>
+		</div>
+		<div class="card__footer">
+			<div class="card__offer">
+				<p class="card__previous">4 400 грн</p>
+				<span class="card__carent">3 400 грн.</span>
+			</div>
+		
+		<div class="card__acions">
+			<button class="card__favorite button-round" type="button" title="в обрані"></button>
+			<button class="card__basket button-round" type="button" title="в обрані"></button>
+		</div>
+		
+
+		</div>
+		</div>
+
+</div>
+	</div>
+</section>
+	<!--Sale-->
+<section class="main__sale sale">
+	<div class="sale__container">
+		<div class="sale__head head-title ">
+			<h3 class="head-title__sale">Акції</h3>
+			<a href="#" class="head__link">Дивитись всі</a>
+	</div>
+<div class="sale__slider">
+	<a href="#" class="sale__link">
+		<img  src="img/sale/sale_1.jpg" alt="picture">
+	</a>
+	<a href="#" class="sale__link">
+		<img  src="img/sale/sale_2.jpg" alt="picture">
+	</a>
+	<a href="#" class="sale__link">
+		<img  src="img/sale/sale_3.jpg" alt="picture">
+	</a>
+</div>
+
+	</div>
+</section>
+
+	<footer class="footer"></footer>
+</div>
+	</body>
+		</html>
