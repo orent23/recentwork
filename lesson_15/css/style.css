@@ -257,7 +257,6 @@ display: inline-flex;
 				background: url("../img/icons/arrow_down.svg") center / 12px no-repeat;
 		}
 		.lang__label:hover{
-			scale: 1.2;
 			color:  hsl(36, 78%, 56%);;
 		}
 		.lang__list {
