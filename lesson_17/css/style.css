@@ -75,7 +75,7 @@ body{
 	margin: 0 auto;
 }
 
-.page{
+.grid{
 	padding: 50px;
 	color: #fff;
 }
@@ -234,7 +234,7 @@ grid-template: repeat(3, 0.2fr) / repeat(3, 0.3fr);
 	color: hsl(0deg 2% 16%);
 	font-size: 24px;
 	font-weight: 600;
-	line-height: 1.
+	line-height: 1;
 }
 @media (768px <= width) {
 	.heading__title {
@@ -434,7 +434,7 @@ grid-template: repeat(3, 0.2fr) / repeat(3, 0.3fr);
 }
 .action-image {
 }
-.actions-image__button {
+.thinks-popular__button {
 	display: grid;
 	place-items: center;
 	width: 50px;
@@ -445,12 +445,21 @@ grid-template: repeat(3, 0.2fr) / repeat(3, 0.3fr);
 	color: hsl(0deg 0% 100%);
 	transition: color 0.3s, background-color 
 }
-.actions-image__button--favorite {
+.thinks-popular__button--favorite {
 	background-color: hsl(0deg 0% 97%);
     color: hsl(0deg 0% 69%);
+		transition: 0.4s;
 }
-.actions-image__button--basket{
+.thinks-popular__button--favorite:hover{
+	background-color: hsl(36, 80%, 60%);
 }
+.thinks-popular__button--basket{
+	transition: 0.4s;
+}
+.thinks-popular__button--basket:hover{
+	background-color: hsl(36, 80%, 60%);
+}
+
 
 
 /*------style-------*/
@@ -494,7 +503,7 @@ grid-template: repeat(3, 0.2fr) / repeat(3, 0.3fr);
 	font-family: "Satoshi-Bold";
 }
 /*---*/
-.card-style__img {
+.card-style__image {
   position: absolute;
   inset: 0;
   z-index: -1;
@@ -507,20 +516,20 @@ grid-template: repeat(3, 0.2fr) / repeat(3, 0.3fr);
 }
 
 @media (600px <= width) {
-  .card-style__img {
+  .card-style__image {
     transform: scale(1.1);
     transition: transform 0.5s;
   }
 }
 
 @media (600px <= width) {
-  .card-style:focus-visible .card-style__img {
+  .card-style:focus-visible .card-style__image {
     transform: none;
   }
 }
 
 @media (600px <= width) and (any-hover) {
-  .card-style:hover .card-style__img {
+  .card-style:hover .card-style__image {
     transform: none;
   }
 }
