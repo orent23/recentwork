@@ -1,0 +1,183 @@
+// налаштування взаємодії
+
+
+
+
+
+
+
+
+
+
+// .title =====================================================================
+.title {
+	font-weight: 500;
+	@include adaptiveValue("font-size", 50, 30);
+	text-transform: capitalize;
+	text-align: center;
+}
+
+// .link =====================================================================
+.link {
+	display: inline-flex;
+	background-color: #1e2832;
+	color: #fff;
+	padding: 22px 29px;
+	text-align: center;
+	align-items: center;
+	column-gap: 11px;
+	text-transform: capitalize;
+	outline: 2px solid transparent;
+	outline-offset: 3px;
+	transition:
+		background-color 0.3s,
+		color 0.3s,
+		outline-color 0.3s;
+
+	@include adaptiveValue("font-size", 29, 22, 0, 991.98, 767.98);
+	&::before {
+		font-size: 24px;
+	}
+	&:focus-visible {
+		outline-color: #ff6f61;
+	}
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: #ff6f61;
+		}
+	}
+	// .link--white
+	&--white {
+		background-color: #fff;
+		color: #1e2832;
+	}
+	@media (max-width: toEm(479.98)) {
+		padding: 15px 20px;
+	}
+}
+
+// .label =====================================================================
+.label {
+	display: inline-block;
+	color: #fff;
+	background-color: #1e2832;
+	padding: 6px 14px;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	&--hot {
+		background-color: #ff6f61;
+	}
+}
+
+// .button =====================================================================
+.button {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	font-size: 18px;
+	text-transform: capitalize;
+	outline: 2px solid transparent;
+	outline-offset: 3px;
+	transition:
+		color 0.3s,
+		outline-color 0.3s;
+	&::before {
+		margin-top: -2px;
+		font-size: 20px;
+	}
+	&:focus-visible {
+		outline-color: #ff6f61;
+	}
+	@media (any-hover: hover) {
+		&:hover {
+			color: #ff6f61;
+		}
+	}
+	&--white {
+		outline-offset: 5px;
+		color: #fff;
+	}
+	&--small {
+		font-size: 16px;
+		column-gap: 6px;
+		padding: 8px 18px;
+		background-color: #1e2832;
+		outline-offset: 3px;
+		transition:
+			color 0.3s,
+			background-color 0.3s,
+			outline-color 0.3s;
+		&::before {
+			font-size: 15px;
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				color: #fff;
+				background-color: #ff6f61;
+			}
+		}
+	}
+}
+
+// .input =====================================================================
+.input {
+	width: 100%;
+	height: 34px;
+	padding: 2px 15px 10px;
+	border-bottom: 2px solid #000;
+	transition: border-color 0.3s;
+	outline: none;
+	&::placeholder {
+		font-weight: 600;
+		text-transform: capitalize;
+		color: rgba(30, 40, 50, 0.5);
+		transition: opacity 0.3s;
+	}
+	&:focus {
+		&::placeholder {
+			opacity: 0;
+		}
+		border-color: #ff6f61;
+	}
+}
+
+// .social =====================================================================
+.social {
+	// .social__list
+	&__list {
+		display: flex;
+		align-items: center;
+		column-gap: 40px;
+		row-gap: 15px;
+		flex-wrap: wrap;
+	}
+	// .social__item
+	&__item {
+		line-height: 0;
+	}
+	// .social__link
+	&__link {
+		font-size: 20px;
+		transition:
+			color 0.3s,
+			outline-color 0.3s;
+		color: #1e2832;
+		outline: 2px solid transparent;
+		outline-offset: 3px;
+		&:focus-visible {
+			outline-color: #ff6f61;
+		}
+		&--less {
+			font-size: 19px;
+		}
+		&--mt-2 {
+			margin-top: -2px;
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				color: #ff6f61;
+			}
+		}
+	}
+}
