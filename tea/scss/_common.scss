@@ -1,0 +1,79 @@
+.button {
+    background-color:$GreynColor;
+    border-radius: toRem(24.8);
+	display: flex;
+    flex-shrink: 0;
+ 
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    padding-inline: toRem(36);
+	padding-block: toRem(13);
+    font-weight: 400;
+    font-size: toRem(20);
+    color: #fff;
+    transition: background-color 0.3s;
+		@media (max-width: toEm(991.98)) {
+			padding-inline: toRem(20);
+			padding-block: toRem(8);
+			font-size: 16px;
+
+		};
+    &:has(.button__icon) {
+		gap: toRem(12);
+		
+	}
+    @media (any-hover: hover) {
+		&:hover {
+			background-color: $lightGreen;
+			color: $GreynColor;
+			border: 1px solid $GreynColor;
+		}
+}
+    // .button__icon
+
+    &__icon {
+        inline-size: toRem(20);
+		aspect-ratio: 1 / 1;
+		overflow: hidden;
+		flex-shrink: 0;
+		position: relative;
+    }
+
+    // .button__text
+//==============приклад модифікатори з різним коліром іконки та тексту
+    &__text {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: toRem(20);
+        &--black {
+            color:#333;
+        }
+    }
+ 
+
+//==============приклад модифікатори з різним коліром іконки та тексту
+&--transparent {
+
+    background-color: transparent;
+    padding-inline: toRem(36);
+    padding-block: toRem(13);
+    border-radius: toRem(24.8);
+    color:#7d806a;
+    &::before{
+        color:#7d806a;
+    }
+    @media (any-hover: hover) {
+        &:hover {
+            color: #fff;
+            background-color:$GreynColor;
+             // Змінюємо колір тексту у span
+             .button__text--black {
+                color: #fff;
+            }
+        }
+      
+    }
+ 
+}
+}

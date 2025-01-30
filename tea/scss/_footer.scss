@@ -1,0 +1,309 @@
+.footer {
+background-color: $newGreenlightColor;
+	// .footer__body
+
+	&__body {
+	}
+
+	// .footer__container
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	// .footer__top
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@include adaptiveValue("	padding-block", 70, 20, 0, $containerWidth,320);
+		@media (max-width: 391.98px) {
+			flex-direction:column;
+row-gap:toRem(20);
+		}
+
+	}
+	&__navigation {
+		display: flex;
+	
+	justify-content: center;
+	}
+	// .footer__bottom
+
+	&__bottom {
+		display: flex;
+flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding-bottom:  toRem(22);
+	@media (max-width: 991.98px) {
+		padding-bottom:  toRem(12);
+	}
+		&::before{
+			content:"";
+			height: toRem(1);
+			width:3000px;
+			background-color: $GreynColor;
+		}
+	}
+
+	// .footer__copy
+
+	&__copy {
+		padding-top:  toRem(22);
+		color:$blackColor;
+		font-size: toRem(16);
+		font-weight: 300;
+		text-transform: capitalize;
+	}
+}
+.top-footer {
+
+	// .top-footer__line
+
+	&__line{
+		height: toRem(136);
+		width: toRem(1);
+		background-color: $GreynColor;
+		
+		@media (max-width: 768.98px) {
+display: none;
+					}
+	}
+	
+}
+.adres-footer {
+	display: flex;
+		flex-wrap: nowrap;
+	// .adres-footer__section
+
+	&__section {
+	
+	}
+}
+
+
+
+.section-adres-footer {
+display: flex;
+flex-direction: column;
+row-gap: toRem(20);
+justify-content: center;
+text-align: center;
+@media (max-width: 991.98px) {
+	flex-wrap: wrap;
+	padding-right: 10px;
+}
+@media (max-width: 768.98px) {
+	flex-direction: row;
+	column-gap: toRem(20);
+}
+
+	// .section-adres-footer__title
+
+	&__title {
+		color:$blackColor;
+font-family: "Philosopher";
+font-size: toRem(20);
+font-weight: 700;
+text-transform: capitalize;
+@media (max-width: 991.98px) {
+	font-size: toRem(18);
+}
+	}
+
+	// .section-adres-footer__items
+
+	&__items {
+		display: flex;
+flex-direction: column;
+row-gap: toRem(10);
+flex-wrap: nowrap;
+
+	}
+
+	// .section-adres-footer__item
+
+	&__item {
+		transition: all 0.4s;
+			@media (any-hover: hover) {
+		&:hover {
+			text-decoration: underline;
+		}}
+		@media (max-width: 631.98px) {
+			max-width: toRem(200);
+			}
+		color:$blackColor;
+font-size: toRem(16);
+font-weight: 300;
+text-transform: capitalize;
+@media (max-width: 991.98px) {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+}
+	}
+}
+.social-footer {
+	
+	// .social-footer__section
+
+	&__section {
+	}
+}
+.section-social-footer {
+	display: flex;
+	flex-direction: column;
+	row-gap:toRem(34);
+	align-self: center;
+	@media (max-width: 991.98px) {
+		row-gap: toRem(20);
+		padding-inline: toRem(10);
+	}
+	@media (max-width: 768.98px) {
+		flex-direction: row;
+	
+	}
+	// .section-social-footer__logo
+	&__body{
+		display: flex;
+		flex-direction: column;
+		row-gap:toRem(5);
+
+	}
+	&__logo {
+		flex: 0 1 33.333%;
+		img{
+		aspect-ratio: 198 / 144;
+			block-size: 100%;
+			inline-size: 100%;
+			object-fit:cover;}
+			@media (max-width: 866.98px) {
+				padding-inline: toRem(10);
+				
+			}
+	}
+
+	// .section-social-footer__items
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		column-gap: toRem(20);
+		@media (max-width: 991.98px) {
+			column-gap: toRem(10);
+		}
+	}
+
+	// .section-social-footer__item
+
+	&__item {
+		color: $GreynColor;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-shrink: 0;
+		flex-grow: 0;
+		width:40px;
+		height: 40px;
+		background-color: $newGreenlightColor;
+
+		transition: all 0.3s;
+		@media (any-hover: hover) {
+			&:hover {
+		
+				background-color: #fff;
+		
+			}}
+		@media (max-width: 360.98px) {
+			width: 14px;
+			height: 17px;
+		}
+	}
+}
+
+.schedule-footer {
+	
+	// .schedule-footer__section
+
+	&__section {
+	}
+}
+.section-schedule-footer {
+	display: flex;
+	flex-direction: column;
+	row-gap: toRem(10);
+	justify-content: center;
+	text-align: center;
+	@media (max-width: 991.98px) {
+		padding-right: 10px;
+	}
+}
+.schedule-social-footer {
+
+	// .schedule-social-footer__title
+
+	&__title {
+		color:$blackColor;
+font-family: "Philosopher";
+font-size: toRem(20);
+font-weight: 700;
+text-transform: capitalize;
+	}
+
+	// .schedule-social-footer__items
+
+	&__items {
+		display: flex;
+		flex-direction: column;
+		row-gap:toRem(10);
+	}
+
+	// .schedule-social-footer__item
+
+	&__item {
+		color:$blackColor;
+		font-size: toRem(16);
+		font-weight: 300;
+		text-transform: capitalize;
+		transition: all 0.4s;
+		@media (any-hover: hover) {
+	&:hover {
+		text-decoration: underline;
+	}}
+	}
+}
+.navigation {
+
+}
+.contact-section {
+
+	// .contact-section__navigation
+
+	&__navigation {
+	}
+}
+.navigation-upp {
+
+	&__arrow {
+		inline-size: toRem(50);
+		aspect-ratio: 1 / 1;
+		border-radius: 50%;
+		border: 2px solid  $GreynColor;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: toRem(23);
+		transition: all 0.4s;
+		&:hover {
+		
+			transform: scale(1.1);
+	}
+	}
+}
+
