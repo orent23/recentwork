@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Swiper -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<!-- Підключення окремого файлу стилів -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері -->
+		<title>krovato</title>
+		<!-- <style>html{opacity: 0;}</style> -->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__top top-header">
+					<div class="top-header__container"><!--все перенесли сюди в бургері-->
+						<nav class="top-header__menu menu">
+							<ul class="menu__list">
+								<li class="menu__item"><a href class="menu__link">Про нас</a></li>
+								<li class="menu__item"><a href class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href class="menu__link">Доставка та збірка</a></li>
+								<li class="menu__item"><a href class="menu__link">Відгуки</a></li>
+								<li class="menu__item"><a href class="menu__link">Блог</a></li>
+								<li class="menu__item"><a href class="menu__link">Контакти</a></li>
+							</ul>
+						</nav>
+						<div class="top-header__actions actions-top-header">
+							<div class="actions-top-header__social social-header">
+								<div class="social-header__label">Допомога і консультація:</div>
+								<div class="social-header__items">
+									<a href="#" target="_blank" class="social-header__item">
+										<img src="img/icons/s-whatsapp.svg" class="social-header__icon" alt="Image">
+									</a>
+									<a href="#" target="_blank" class="social-header__item">
+										<img src="img/icons/s-telegram.svg" class="social-header__icon" alt="Image">
+									</a>
+									<a href="#" target="_blank" class="social-header__item">
+										<img src="img/icons/s-viber.svg" class="social-header__icon" alt="Image">
+									</a>
+								</div>
+							</div>
+							<div class="actions-top-header__lang lang-header">
+								<button class="lang-header__current _icon-arrow-down">UA</button>
+								<ul class="lang-header__list">
+									<li class="lang-header__item">
+										<a href="#" class="lang-header__link">EN</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__body body-header">
+					<div class="body-header__container">
+						<button type="button" class="body-header__icon-menu icon-menu"><span></span></button>
+						<div class="body-header__logotip">
+						<img src="img/logo-header.svg" class="body-header__logo" alt="Image">
+					</div>
+						<div class="body-header__catalog catalog-header">
+							<button class="catalog-header__button button">
+								<span class="button__icon">
+									<span class="_icon-menu-catalog"></span>
+									<span class="_icon-menu-close"></span>
+								</span>
+								<span class="button__text">Каталог</span>
+							</button>
+							<div class="catalog-header__items items-catalog-header">
+								<div class="items-catalog-header__wrapper">
+									<ul class="items-catalog-header__list">
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/lizhka.svg" alt="Image">
+												<span class="items-catalog-header__text">Ліжка</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/matrac.svg" alt="Image">
+												<span class="items-catalog-header__text">Матраци</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/mmebli.svg" alt="Image">
+												<span class="items-catalog-header__text">М’які меблі</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/shafa.svg" alt="Image">
+												<span class="items-catalog-header__text">Шафи</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/komod.svg" alt="Image">
+												<span class="items-catalog-header__text">Комоди</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/tumba.svg" alt="Image">
+												<span class="items-catalog-header__text">Тумби</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/stol.svg" alt="Image">
+												<span class="items-catalog-header__text">Столи</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/stilci.svg" alt="Image">
+												<span class="items-catalog-header__text">Стільці</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/mstiny.svg" alt="Image">
+												<span class="items-catalog-header__text">Меблеві стіни</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="items-catalog-header__item">
+											<a href="#" class="items-catalog-header__link">
+												<img class="items-catalog-header__icon" src="img/icons/categories/kuhni.svg" alt="Image">
+												<span class="items-catalog-header__text">Кухні</span>
+											</a>
+											<button class="items-catalog-header__more _icon-arrow-down"></button>
+											<div class="items-catalog-header__sub-menu">
+												<ul class="items-catalog-header__sub-list">
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Односпальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Двоспальні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Bonnel</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Пружинний блок Pocket Spring</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Безпружинні матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци з ефектом Зима-Літо</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Футони</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Дитячі матраци</a></li>
+													<li class="items-catalog-header__sub-item"><a href="#" class="items-catalog-header__sub-link">Матраци Економ</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						
+						<form action="#" class="body-header__search search-header">
+							<button type="button" class="search-header__open">
+								<span class="_icon-search"></span>
+								<span class="_icon-cross"></span>
+							</button>
+							<div class="search-header__body">
+								<input minlength="3" required autocomplete="off" type="text" name="form[]" placeholder="Пошук товарів" class="search-header__input">
+								<button class="search-header__button _icon-search" type="submit"></button>
+							</div>
+						</form>
+						<div class="body-header__contacts contacts-header">
+							<div class="contacts-header__current current-contacts-header ">
+								<button class="current-contacts-header__phone-icon _icon-phone"></button>
+								<div class="current-contacts-header__body">
+									<span class="current-contacts-header__schedule">Щодня з 9:00 до 18:00</span>
+									<a href="tel:0679294545" class="current-contacts-header__phone _icon-phone">067 929-45-45</a>
+								</div>
+								<button class="current-contacts-header__arrow">
+									<span class="_icon-arrow-down"></span>
+									<span class="_icon-cross"></span>
+								</button>
+							</div>
+							<ul class="contacts-header__list">
+								<li class="contacts-header__item">
+									<a href="tel:0501334545" class="contacts-header__link">050 133-45-45</a>
+								</li>
+								<li class="contacts-header__item">
+									<a href="tel:0931707545" class="contacts-header__link">093 170-75-45</a>
+								</li>
+								<li class="contacts-header__item">
+									<button class="contacts-header__callme">Передзвоніть мені</button>
+								</li>
+							</ul>
+						</div>
+						<div class="body-header__actions actions-body-header">
+							<a href="#" class="actions-body-header__item _icon-favorite"></a>
+							<a href="#" class="actions-body-header__item _icon-cart"></a>
+							<div class="actions-body-header__cart cart-header">
+
+								<div class="cart-header__header">
+									<h4 class="cart-header__title">Ваш кошик <span>4</span></h4>
+									<button type="button" class="cart-header__close _icon-cross"></button>
+								</div>
+								<div class="cart-header__items">
+									<article class="cart-header__item item-cart-header">
+										<a href="#" class="item-cart-header__link-image">
+											<img src="img/products/01.jpg" class="item-cart-header__image" alt="Image">
+										</a>
+										<div class="item-cart-header__body">
+											<div class="item-cart-header__size">Розмір: 61 x 184 x 2130&nbsp;мм</div>
+											<h5 class="item-cart-header__title">
+												<a href="#" class="item-cart-header__link-title">Ліжко Спарта / Sparta з підйомним механізмом</a>
+											</h5>
+											<div class="item-cart-header__stock _icon-in-stock">В наявності</div>
+										</div>
+										<button class="item-cart-header__close _icon-cross"></button>
+										<form action="#" class="item-cart-header__quantity quantity">
+											<button class="quantity__button _icon-minus"></button>
+											<input minlength="1" type="text" value="1" class="quantity__input">
+											<button class="quantity__button _icon-plus"></button>
+										</form>
+										<div class="item-cart-header__price price-item-cart-header">
+											<div class="price-item-cart-header__current">15 400 грн.</div>
+											<div class="price-item-cart-header__old">25 400 грн.</div>
+										</div>
+									</article>
+									<article class="cart-header__item item-cart-header">
+										<a href="#" class="item-cart-header__link-image">
+											<img src="img/products/01.jpg" class="item-cart-header__image" alt="Image">
+										</a>
+										<div class="item-cart-header__body">
+											<div class="item-cart-header__size">Розмір: 61 x 184 x 2130&nbsp;мм</div>
+											<h5 class="item-cart-header__title">
+												<a href="#" class="item-cart-header__link-title">Ліжко Спарта / Sparta з підйомним механізмом</a>
+											</h5>
+											<div class="item-cart-header__stock _icon-in-stock">В наявності</div>
+										</div>
+										<button class="item-cart-header__close _icon-cross"></button>
+										<form action="#" class="item-cart-header__quantity quantity">
+											<button class="quantity__button _icon-minus"></button>
+											<input minlength="1" type="text" value="1" class="quantity__input">
+											<button class="quantity__button _icon-plus"></button>
+										</form>
+										<div class="item-cart-header__price price-item-cart-header">
+											<div class="price-item-cart-header__current">15 400 грн.</div>
+											<div class="price-item-cart-header__old">25 400 грн.</div>
+										</div>
+									</article>
+									<article class="cart-header__item item-cart-header">
+										<a href="#" class="item-cart-header__link-image">
+											<img src="img/products/01.jpg" class="item-cart-header__image" alt="Image">
+										</a>
+										<div class="item-cart-header__body">
+											<div class="item-cart-header__size">Розмір: 61 x 184 x 2130 мм</div>
+											<h5 class="item-cart-header__title">
+												<a href="#" class="item-cart-header__link-title">Ліжко Спарта / Sparta з підйомним механізмом</a>
+											</h5>
+											<div class="item-cart-header__stock _icon-in-stock">В наявності</div>
+										</div>
+										<button class="item-cart-header__close _icon-cross"></button>
+										<form action="#" class="item-cart-header__quantity quantity">
+											<button class="quantity__button _icon-minus"></button>
+											<input minlength="1" type="text" value="1" class="quantity__input">
+											<button class="quantity__button _icon-plus"></button>
+										</form>
+										<div class="item-cart-header__price price-item-cart-header">
+											<div class="price-item-cart-header__current">15 400 грн.</div>
+											<div class="price-item-cart-header__old">25 400 грн.</div>
+										</div>
+									</article>
+								</div>
+								<div class="cart-header__footer">
+									<a href="#" class="cart-header__checkout button">ОФОРМИТИ ЗАМОВЛЕННЯ</a>
+									<a href="#" class="cart-header__continue button button--border">Продовжити покупки</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom bottom-header">
+					<div class="bottom-header__container">
+						<div class="bottom-header__menus" >
+							<ul class="bottom-header__list bottom-header-list--row">
+								<li class="bottom-header__item bottom-header__item--row">
+									<a href="#" class="bottom-header__link bottom-header-link--size _icon-menu-star">Акції</a>
+								</li>
+								<li class="bottom-header__item">
+									<a href="#" class="bottom-header__link bottom-header-link--size _icon-menu-sale">Розпродаж</a>
+								</li>
+								<li class="bottom-header__item">
+									<a href="#" class="bottom-header__link bottom-header-link--size _icon-menu-part">Купити в кредит</a>
+								</li>
+							</ul>
+							<ul class="bottom-header__list bottom-header-list--line" data-da=".top-header__menu, 991.98, 2" >
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Дитяча</a></li>
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Кухня</a></li>
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Ванна</a></li>
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Спальня</a></li>
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Передпокій</a></li>
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Вітальня</a></li>
+								<li class="bottom-header__item"><a href="#" class="bottom-header__link">Офіс</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div class="page__hero hero">
+					<div class="hero__container">
+						<!-- Slider main container -->
+						<div class="hero__swiper swiper">
+							<!-- Additional required wrapper -->
+							<div class="hero__swiper-wrapper swiper-wrapper">
+								<!-- Slides -->
+								<div class="hero__swiper-slide swiper-slide">
+									<a href="#" class="hero__link">
+										<img class="hero__image" src="img/home/hero/slide-1.jpg" alt="Image">
+									</a>
+								</div>
+								<div class="hero__swiper-slide swiper-slide">
+									<a href="#" class="hero__link">
+										<img class="hero__image" src="img/home/hero/slide-1.jpg" alt="Image">
+									</a>
+								</div>
+								<div class="hero__swiper-slide swiper-slide">
+									<a href="#" class="hero__link">
+										<img class="hero__image" src="img/home/hero/slide-1.jpg" alt="Image">
+									</a>
+								</div>
+							</div>
+							<!-- If we need pagination -->
+							<div class="hero__swiper-pagination"></div>
+							<!-- If we need navigation buttons -->
+							<button type="button" class="hero__swiper-button hero__swiper-button--prev _icon-slider-arrow"></button>
+							<button type="button" class="hero__swiper-button hero__swiper-button--next _icon-slider-arrow"></button>
+						</div>
+					</div>
+				</div>
+				<section class="page__popular-categories popular-categories">
+					<div class="popular-categories__container">
+						<div class="popular-categories__block-header block-header block-header--margin">
+							<div class="block-header__content">
+								<h2 class="block-header__title title">Популярні категорії</h2>
+							</div>
+						</div>
+						<div class="popular-categories__items">
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Ліжка</h4>
+										<div class="item-category__quantity">54</div>
+									</div>
+									<img src="img/categories/icon-1.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Матраци</h4>
+										<div class="item-category__quantity">59</div>
+									</div>
+									<img src="img/categories/icon-2.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">М'які меблі</h4>
+										<div class="item-category__quantity">94</div>
+									</div>
+									<img src="img/categories/icon-3.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Шафи</h4>
+										<div class="item-category__quantity">24</div>
+									</div>
+									<img src="img/categories/icon-4.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Комоди</h4>
+										<div class="item-category__quantity">95</div>
+									</div>
+									<img src="img/categories/icon-5.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Тумби</h4>
+										<div class="item-category__quantity">22</div>
+									</div>
+									<img src="img/categories/icon-6.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Столи</h4>
+										<div class="item-category__quantity">12</div>
+									</div>
+									<img src="img/categories/icon-7.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Стільці</h4>
+										<div class="item-category__quantity">12</div>
+									</div>
+									<img src="img/categories/icon-8.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Меблеві стіни</h4>
+										<div class="item-category__quantity">84</div>
+									</div>
+									<img src="img/categories/icon-9.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+							<article class="item-category">
+								<a href="#" class="item-category__link _icon-more-arrow">
+									<div class="item-category__header">
+										<h4 class="item-category__title">Кухні</h4>
+										<div class="item-category__quantity">77</div>
+									</div>
+									<img src="img/categories/icon-10.png" alt="Image" class="item-category__image">
+								</a>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="page__popular-products popular-products">
+					<div class="popular-products__container">
+						<div class="popular-products__block-header block-header block-header--margin">
+							<div class="block-header__content">
+								<h2 class="block-header__title title">Популярні продукти</h2>
+								<a href="#" class="block-header__more _icon-more-arrow more">Дивитись всі</a>
+							</div>
+						</div>
+						<div class="popular-products__items">
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-1.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Ліжко Спарта / Sparta з підйомним механізмом
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__old">155 400 грн.</div>
+										<div class="price-item-product__current">155 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-2.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Ліжко Аргон з підйомним механізмом
+
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__old">55 400 грн.</div>
+										<div class="price-item-product__current">50 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-3.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Ліжко Престиж з підйомним механізмом
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__old">6000 грн.</div>
+										<div class="price-item-product__current">5000 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-4.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Диван Токіо-2
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__current">55 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-5.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Матрац Largo SLIM / Ларго Слім
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__old">15 400 грн.</div>
+										<div class="price-item-product__current">10 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-6.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Матрац ARGENTUM AMALTEA / Аргентум Амалті
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__current">5 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-7.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Диван Браво
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__old">5 400 грн.</div>
+										<div class="price-item-product__current">3 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+							<article class="item-product">
+								<a href="#" class="item-product__link">
+									<img class="item-product__image" src="img/products/pop_bad-8.jpg" alt="Image">
+								</a>
+								<div class="item-product__size">Розмір: 61 x 184 x 2130 мм</div>
+								<h4 class="item-product__title">
+									<a href="#" class="item-product__link-title">
+										Ліжко МК-5
+									</a>
+								</h4>
+								<div class="item-product__stock _icon-in-stock">В наявності</div>
+								<div class="item-product__footer">
+									<div class="item-product__price price-item-product">
+										<div class="price-item-product__current">17 400 грн.</div>
+									</div>
+									<div class="item-product__actions">
+										<button class="item-product__favorite _icon-favorite" type="button"></button>
+										<button class="item-product__add-to-cart _icon-cart" type="button"></button>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="page__sale sale">
+					<div class="sale__container">
+						<div class="sale__block-header block-header block-header--margin">
+							<div class="block-header__content">
+								<h2 class="block-header__title title">Акції</h2>
+								<a href="#" class="block-header__more _icon-more-arrow more">Дивитись всі</a>
+							</div>
+							<div class="block-header__arrows">
+								<button class="block-header__arrow block-header__arrow--sale-left _icon-slider-arrow"></button>
+								<button class="block-header__arrow block-header__arrow--sale-right _icon-slider-arrow"></button>
+							</div>
+						</div>
+
+						 
+						<div class="sale__slider swiper">
+							<div class="sale__swiper-wrapper swiper-wrapper">
+								<a href="#" class="sale__swiper-slide swiper-slide">
+									<img class="sale__image" src="img/home/sale/01.jpg" alt="Image">
+								</a>
+								<a href="#" class="sale__swiper-slide swiper-slide">
+									<img class="sale__image" src="img/home/sale/02.jpg" alt="Image">
+								</a>
+								<a href="#" class="sale__swiper-slide swiper-slide">
+									<img class="sale__image" src="img/home/sale/03.jpg" alt="Image">
+								</a>
+								<a href="#" class="sale__swiper-slide swiper-slide">
+									<img class="sale__image" src="img/home/sale/02.jpg" alt="Image">
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__reviews reviews">
+					<div class="reviews__content">
+						<div class="reviews__body">
+							<h2 class="reviews__title title">Останні відгуки</h2>
+							<div class="reviews__shop shop-reviews">
+								<img src="img/reviews/ava.svg" class="shop-reviews__avatar" alt="Image">
+								<div class="shop-reviews__body">
+									<div class="shop-reviews__title">Магазин меблів для дому «KROVATO»</div>
+									<div class="reviews__rating rating">
+										<div class="rating__value">5.0</div>
+										<div class="rating__stars">
+											<div class="rating__star"></div>
+											<div class="rating__star"></div>
+											<div class="rating__star"></div>
+											<div class="rating__star"></div>
+											<div class="rating__star"></div>
+										</div>
+										<div class="rating__info">Базовано на відгуках: 269</div>
+									</div>
+								</div>
+							</div>
+							<div data-da=".reviews__content, 1050" class="reviews__actions">
+								<a href="#" class="reviews__add button">
+									<span class="button__icon _icon-add-review"></span>
+									<span class="button__text">Написати відгук</span>
+								</a>
+								<a href="#" class="reviews__all button button--grey">
+									<span class="button__icon _icon-reviews"></span>
+									<span class="button__text">Всі відгуки</span>
+								</a>
+							</div>
+						</div>
+						<div class="reviews__items">
+							<div class="reviews__slider swiper">
+								<div class="reviews__wrapper swiper-wrapper">
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__header">
+											<div class="slide-review__avatar _icon-user"></div>
+											<div class="slide-review__body">
+												<div class="slide-review__title">Іван Стедниця</div>
+												<div class="slide-review__rating rating">
+													<div class="rating__stars">
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+													</div>
+												</div>
+											</div>
+											<time datetime="25.01.2022" class="slide-review__date">25.01.2022</time>
+										</div>
+										<div class="slide-review__body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, expedita odio totam laborum repudiandae voluptas iusto delectus odit illo maxime reiciendis qui asperiores, recusandae iure sunt corporis harum? Culpa, dolore.</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, expedita odio totam laborum repudiandae voluptas iusto delectus odit illo maxime reiciendis qui asperiores, recusandae iure sunt corporis harum? Culpa, dolore.</p>
+										</div>
+										<a href="#" class="slide-review__product product-review">
+											<img src="img/reviews/img-tovar.jpg" class="product-review__image" alt="Image">
+											<div class="product-review__title">Диван Orange-Line Родео SF Orange-Line Родео SF</div>
+										</a>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__header">
+											<div class="slide-review__avatar _icon-user"></div>
+											<div class="slide-review__body">
+												<div class="slide-review__title">Іван Стедниця</div>
+												<div class="slide-review__rating rating">
+													<div class="rating__stars">
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+													</div>
+												</div>
+											</div>
+											<time datetime="25.01.2022" class="slide-review__date">25.01.2022</time>
+										</div>
+										<div class="slide-review__body">
+											<p>Lorem ipsum dolor sit amet, consectetur</p>
+										</div>
+										<a href="#" class="slide-review__product product-review">
+											<img src="img/reviews/img-tovar.jpg" class="product-review__image" alt="Image">
+											<div class="product-review__title">Диван Orange-Line Родео SF Orange-Line Родео SF</div>
+										</a>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__header">
+											<div class="slide-review__avatar _icon-user"></div>
+											<div class="slide-review__body">
+												<div class="slide-review__title">Іван Стедниця</div>
+												<div class="slide-review__rating rating">
+													<div class="rating__stars">
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+													</div>
+												</div>
+											</div>
+											<time datetime="25.01.2022" class="slide-review__date">25.01.2022</time>
+										</div>
+										<div class="slide-review__body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, expedita odio totam laborum repudiandae voluptas iusto delectus odit illo maxime reiciendis qui asperiores, recusandae iure sunt corporis harum? Culpa, dolore.</p>
+										</div>
+										<a href="#" class="slide-review__product product-review">
+											<img src="img/reviews/img-tovar.jpg" class="product-review__image" alt="Image">
+											<div class="product-review__title">Диван Orange-Line Родео SF Orange-Line Родео SF</div>
+										</a>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__header">
+											<div class="slide-review__avatar _icon-user"></div>
+											<div class="slide-review__body">
+												<div class="slide-review__title">Іван Стедниця</div>
+												<div class="slide-review__rating rating">
+													<div class="rating__stars">
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+													</div>
+												</div>
+											</div>
+											<time datetime="25.01.2022" class="slide-review__date">25.01.2022</time>
+										</div>
+										<div class="slide-review__body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, expedita odio totam laborum repudiandae voluptas iusto delectus odit illo maxime reiciendis qui asperiores, recusandae iure sunt corporis harum? Culpa, dolore.</p>
+										</div>
+										<a href="#" class="slide-review__product product-review">
+											<img src="img/reviews/img-tovar.jpg" class="product-review__image" alt="Image">
+											<div class="product-review__title">Диван Orange-Line Родео SF Orange-Line Родео SF</div>
+										</a>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__header">
+											<div class="slide-review__avatar _icon-user"></div>
+											<div class="slide-review__body">
+												<div class="slide-review__title">Іван Стедниця</div>
+												<div class="slide-review__rating rating">
+													<div class="rating__stars">
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+													</div>
+												</div>
+											</div>
+											<time datetime="25.01.2022" class="slide-review__date">25.01.2022</time>
+										</div>
+										<div class="slide-review__body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, expedita odio totam laborum repudiandae voluptas iusto delectus odit illo maxime reiciendis qui asperiores, recusandae iure sunt corporis harum? Culpa, dolore.</p>
+										</div>
+										<a href="#" class="slide-review__product product-review">
+											<img src="img/reviews/img-tovar.jpg" class="product-review__image" alt="Image">
+											<div class="product-review__title">Диван Orange-Line Родео SF Orange-Line Родео SF</div>
+										</a>
+									</div>
+									<div class="reviews__slide slide-review swiper-slide">
+										<div class="slide-review__header">
+											<div class="slide-review__avatar _icon-user"></div>
+											<div class="slide-review__body">
+												<div class="slide-review__title">Іван Стедниця</div>
+												<div class="slide-review__rating rating">
+													<div class="rating__stars">
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+														<div class="rating__star"></div>
+													</div>
+												</div>
+											</div>
+											<time datetime="25.01.2022" class="slide-review__date">25.01.2022</time>
+										</div>
+										<div class="slide-review__body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, expedita odio totam laborum repudiandae voluptas iusto delectus odit illo maxime reiciendis qui asperiores, recusandae iure sunt corporis harum? Culpa, dolore.</p>
+										</div>
+										<a href="#" class="slide-review__product product-review">
+											<img src="img/reviews/img-tovar.jpg" class="product-review__image" alt="Image">
+											<div class="product-review__title">Диван Orange-Line Родео SF Orange-Line Родео SF</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__scroll">
+								<div class="reviews__drag-scroll _icon-slide"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+				
+				<section class="page__new-articles new-articles">
+					<div class="new-articles__content">
+						<div class="new-articles__block-header block-header block-header--margin">
+							<div class="block-header__content">
+								<h2 class="block-header__title title">Свіжі статті та останні новини</h2>
+								<a href="#" class="block-header__more _icon-more-arrow more">Дивитись всі</a>
+							</div>
+							<div class="block-header__arrows">
+								<button class="block-header__arrow block-header__arrow--new-articles-left _icon-slider-arrow"></button>
+								<button class="block-header__arrow block-header__arrow--new-articles-right _icon-slider-arrow"></button>
+							</div>
+						</div>
+						<div class="new-articles__slider swiper">
+							<div class="new-articles__swiper-wrapper swiper-wrapper">
+								<article class="new-articles__slide swiper-slide item-article">
+									<a href="#" class="item-article__link">
+										<img class="item-article__image" src="img/articles/01.jpg" alt="Image">
+									</a>
+									<div class="item-article__body">
+										<h4 class="item-article__title">
+											<a href="#" class="item-article__title-link">Стільці для вітальні. Як правильно вибрати?</a>
+										</h4>
+										<a href="#" class="item-article__more _icon-more-arrow more">Детальніше</a>
+									</div>
+								</article>
+								<article class="new-articles__slide swiper-slide item-article">
+									<a href="#" class="item-article__link">
+										<img class="item-article__image" src="img/articles/02.jpg" alt="Image">
+									</a>
+									<div class="item-article__body">
+										<h4 class="item-article__title">
+											<a href="#" class="item-article__title-link">Що краще вибрати для кухні – стільці чи кухонний куточок?</a>
+										</h4>
+										<a href="#" class="item-article__more _icon-more-arrow more">Детальніше</a>
+									</div>
+								</article>
+								<article class="new-articles__slide swiper-slide item-article">
+									<a href="#" class="item-article__link">
+										<img class="item-article__image" src="img/articles/03.jpg" alt="Image">
+									</a>
+									<div class="item-article__body">
+										<h4 class="item-article__title">
+											<a href="#" class="item-article__title-link">Оформлення вітальні. Які м'які меблі краще вибрати?</a>
+										</h4>
+										<a href="#" class="item-article__more _icon-more-arrow more">Детальніше</a>
+									</div>
+								</article>
+								<article class="new-articles__slide swiper-slide item-article">
+									<a href="#" class="item-article__link">
+										<img class="item-article__image" src="img/articles/01.jpg" alt="Image">
+									</a>
+									<div class="item-article__body">
+										<h4 class="item-article__title">
+											<a href="#" class="item-article__title-link">Стільці для вітальні. Як правильно вибрати?</a>
+										</h4>
+										<a href="#" class="item-article__more _icon-more-arrow more">Детальніше</a>
+									</div>
+								</article>
+								<article class="new-articles__slide swiper-slide item-article">
+									<a href="#" class="item-article__link">
+										<img class="item-article__image" src="img/articles/02.jpg" alt="Image">
+									</a>
+									<div class="item-article__body">
+										<h4 class="item-article__title">
+											<a href="#" class="item-article__title-link">Що краще вибрати для кухні – стільці чи кухонний куточок?</a>
+										</h4>
+										<a href="#" class="item-article__more _icon-more-arrow more">Детальніше</a>
+									</div>
+								</article>
+								<article class="new-articles__slide swiper-slide item-article">
+									<a href="#" class="item-article__link">
+										<img class="item-article__image" src="img/articles/03.jpg" alt="Image">
+									</a>
+									<div class="item-article__body">
+										<h4 class="item-article__title">
+											<a href="#" class="item-article__title-link">Оформлення вітальні. Які м'які меблі краще вибрати?</a>
+										</h4>
+										<a href="#" class="item-article__more _icon-more-arrow more">Детальніше</a>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="page__footer">
+					<section class="page__seo-text seo-text seo-text">
+						<div class="seo-text__content">
+							<h1 class="seo-text__title title">KROVATO - коли потрібні якісні меблі за доступною ціною!</h1>
+							<div data-show-more class="seo-text__show-more show-more show-more--white">
+								<div data-show-more-text class="show-more__text">
+									<p>Якщо в пошуковий рядок браузера ввести запит: «Куплю ліжко, шафу, диван», система видасть сотні продавців, що спеціалізуються з продажу цього товару. Але далеко не всі магазини та сайти в інтернеті можуть запропонувати такий самий різноманітний асортимент, як наша компанія. Та й з нашими цінами конкурувати можуть мало хто. Адже товар ми отримуємо безпосередньо від виробників, не переплачуючи за послуги посередників. До того ж, продажі ми ведемо як онлайн, так і в салоні, при цьому ціна на асортимент онлайн та офлайн - однакова.</p>
+									<p>Ми співпрацюємо тільки з найкращими вітчизняними та зарубіжними фабриками та компаніями, які отримали визнання покупців та експертів меблевої справи. Для нас важливо, щоб товар, який ми продаємо, відповідав міжнародним стандартам якості, був із сертифікованих матеріалів – довговічних, красивих та екологічно чистих. Ми з особливою ретельністю відбираємо пропозиції для магазину, тому можемо поручитися за їхню якість і впевнено рекомендувати клієнтам. У нас ви легко знайдете меблеві серії в класичному та модерному стилі, лінійки для оформлення житла в дусі романтики або скандинавського лаконізму.</p>
+									<p>Якщо в пошуковий рядок браузера ввести запит: «Куплю ліжко, шафу, диван», система видасть сотні продавців, що спеціалізуються з продажу цього товару. Але далеко не всі магазини та сайти в інтернеті можуть запропонувати такий самий різноманітний асортимент, як наша компанія. Та й з нашими цінами конкурувати можуть мало хто. Адже товар ми отримуємо безпосередньо від виробників, не переплачуючи за послуги посередників. До того ж, продажі ми ведемо як онлайн, так і в салоні, при цьому ціна на асортимент онлайн та офлайн - однакова.</p>
+									<p>Ми співпрацюємо тільки з найкращими вітчизняними та зарубіжними фабриками та компаніями, які отримали визнання покупців та експертів меблевої справи. Для нас важливо, щоб товар, який ми продаємо, відповідав міжнародним стандартам якості, був із сертифікованих матеріалів – довговічних, красивих та екологічно чистих. Ми з особливою ретельністю відбираємо пропозиції для магазину, тому можемо поручитися за їхню якість і впевнено рекомендувати клієнтам. У нас ви легко знайдете меблеві серії в класичному та модерному стилі, лінійки для оформлення житла в дусі романтики або скандинавського лаконізму.</p>
+								</div>
+								<button data-show-more-button class="show-more__button _icon-show-more" type="button"></button>
+							</div>
+						</div>
+					</section>
+					<div class="page__advantages advantages">
+						<div class="advantages__content">
+							<div class="advantages__item">
+								<img class="advantages__icon" src="img/icons/advantages/01.svg" alt="Image">
+								<div class="advantages__title">Безкоштовна доставка</div>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__icon" src="img/icons/advantages/02.svg" alt="Image">
+								<div class="advantages__title">Безкоштовна збірка</div>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__icon" src="img/icons/advantages/03.svg" alt="Image">
+								<div class="advantages__title">Післягарантійне обслуговування</div>
+							</div>
+							<div class="advantages__item">
+								<img class="advantages__icon" src="img/icons/advantages/04.svg" alt="Image">
+								<div class="advantages__title">Знижки клієнтам</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__body">
+					<div class="footer__container">
+						<div class="footer__column social-footer">
+							<img class="social-footer__logo" src="img/logo-footer.svg" alt="Image">
+							<div class="social-footer__section section-social-footer">
+								<div class="section-social-footer__title">Приєднуйтесь:</div>
+								<div class="section-social-footer__items">
+									<a target="_blank" href="#" class="section-social-footer__item">
+										<img class="section-social-footer__icon" src="img/icons/s-facebook.svg" alt="Image">
+									</a>
+									<a target="_blank" href="#" class="section-social-footer__item">
+										<img class="section-social-footer__icon" src="img/icons/s-instagram.svg" alt="Image">
+									</a>
+								</div>
+							</div>
+							<div class="social-footer__section section-social-footer">
+								<div class="section-social-footer__title">Допомога і консультація:</div>
+								<div class="section-social-footer__items">
+									<a target="_blank" href="#" class="section-social-footer__item">
+										<img class="section-social-footer__icon" src="img/icons/s-whatsapp.svg" alt="Image">
+									</a>
+									<a target="_blank" href="#" class="section-social-footer__item">
+										<img class="section-social-footer__icon" src="img/icons/s-telegram.svg" alt="Image">
+									</a>
+									<a target="_blank" href="#" class="section-social-footer__item">
+										<img class="section-social-footer__icon" src="img/icons/s-viber.svg" alt="Image">
+									</a>
+								</div>
+							</div>
+							<div class="social-footer__payment payment-social-footer">
+								<img class="payment-social-footer__item" src="img/payment/visa.png" alt="Image">
+								<img class="payment-social-footer__item" src="img/payment/mastercard.png" alt="Image">
+							</div>
+						</div>
+						<div data-spollers-init="600" class="footer__column menu-footer">
+							<details class="menu-footer__item">
+								<summary class="menu-footer__title _icon-arrow-down">Інформація</summary>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Про нас</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Оплата</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Доставка та збірка</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Відгуки</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Блог</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Контакти</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Мапа сайту</a></li>
+								</ul>
+							</details>
+							<details class="menu-footer__item">
+								<summary class="menu-footer__title _icon-arrow-down">Категорії</summary>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Ліжка</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Матраци</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">М’які меблі</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Шафи</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Комоди</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Тумби</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Столи</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Стільці</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Меблеві стіни</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Кухні</a></li>
+								</ul>
+							</details>
+							<details class="menu-footer__item">
+								<summary class="menu-footer__title _icon-arrow-down">Клієнтам</summary>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Акції</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Розпродаж</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Купити в кредит</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Обмін і повернення товару</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Часто задавані питання</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Умови покупки</a></li>
+									<li class="menu-footer__element"><a href="#" class="menu-footer__link">Політика конфіденційності</a></li>
+								</ul>
+							</details>
+						</div>
+						<address class="footer__column contacts-footer">
+							<div class="contacts-footer__section contacts-footer__section--shrink _icon-phone">
+								<a href="tel:+380679294545" class="contacts-footer__item">+38 067 929-45-45</a>
+								<a href="tel:+380501334545" class="contacts-footer__item">+38 050 133-45-45</a>
+								<a href="tel:+380931707545" class="contacts-footer__item">+38 093 170-75-45</a>
+								<button class="contacts-footer__callback">Передзвоніть мені</button>
+							</div>
+							<div class="contacts-footer__section _icon-location">
+								<a href="#" target="_blank" class="contacts-footer__text">м. Київ, провулок Ізяславський 52, поверх 2</a>
+							</div>
+							<div class="contacts-footer__section _icon-schedule">
+								<div class="contacts-footer__text">Працюємо щодня з 9:00 до 18:00</div>
+							</div>
+						</address>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copy">© KROVATO - Технології сну - 2022. Всі права захищені.</div>
+				</div>
+			</footer>
+		</div>
+		<!-- Swiper -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<!-- Підключення JS-файлу з кодом -->
+		<script src="js/dynamic_adapt.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
