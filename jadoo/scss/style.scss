@@ -1,0 +1,89 @@
+
+@use "sass:math";
+
+
+@import "base/mixins";
+@import "base/reset";
+@import "base/fonts";
+
+
+// загальні стилі viewport============загальні стилі viewport============
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1240;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+// $pc: toEm($containerWidth);
+// $tablet: toEm(991.98);
+// $mobile: toEm(767.98);
+// $mobileSmall: toEm(479.98);
+
+
+
+// $mainColor: rgba(0, 0, 0, 0.6);
+// $fontFamily: "Satoshi";
+// $fontSecond: "Integral";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+	background-color: #fff;
+
+	color: black;
+	font-family: "Poppins", sans-serif;
+	// font-family: "Volkov", sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	& > main {
+		flex-grow: 1;
+	}
+}
+
+//загальні стилі елементам============загальні стилі елементам============загальні стилі елементам
+
+[class*="__container"] {
+	margin: 0 auto;
+  padding: 0 toRem(15);
+  max-width: toRem(1270);
+}
+
+// налаштування взаємодії
+.input {
+	width: 100%;
+	height: toRem(22);
+	padding: toRem(12) toRem(16);
+  background-color: #f0f0f0;
+	transition: border-color 0.3s;
+	outline: none;
+	&::placeholder {
+		font-weight: 400;
+		text-transform: capitalize;
+		color: rgba(30, 40, 50, 0.5);
+		transition: opacity 0.3s;
+	}
+	&:focus {
+		&::placeholder {
+			opacity: 0;
+		}
+		border-color: #030303;
+	}
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+
+
+@import "header";
+@import "home";

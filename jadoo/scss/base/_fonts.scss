@@ -1,0 +1,250 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Volkhov:regular,italic,700&display=swap");
+
+
+
+@font-face {
+  font-family: "icons";
+  src:  url("../fonts/icons.eot?f1yhsm");
+  src:  url("../fonts/icons.eot?f1yhsm#iefix") format("embedded-opentype"),
+    url("../fonts/icons.ttf?f1yhsm") format("truetype"),
+    url("../fonts/icons.woff?f1yhsm") format("woff"),
+    url("../fonts/icons.svg?f1yhsm#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icons-"]::before,
+[class*=" icons-"]::before {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icons" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icons-angle-down:before {
+  content: "\e913";
+	
+
+}
+.icons-angle-up:before {
+  content: "\e914";
+}
+
+.icons-choose:before {
+  content: "\e903";
+}
+.icons-cross:before {
+  content: "\e904";
+}
+.icons-facebook:before {
+  content: "\e905";
+
+}
+.icons-gps:before {
+  content: "\e906";
+}
+.icons-house:before {
+  content: "\e907";
+
+}
+.icons-instagram:before {
+  content: "\e908";
+}
+.icons-leaf:before {
+  content: "\e909";
+}
+.icons-letter:before {
+  content: "\e90a";
+}
+.icons-like:before {
+  content: "\e90b";
+}
+.icons-map:before {
+  content: "\e90c";
+}
+.icons-play:before {
+  content: "\e90f";
+}
+.icons-swim:before {
+  content: "\e910";
+}
+.icons-taxi:before {
+  content: "\e911";
+}
+.icons-twatter:before {
+  content: "\e912";
+}
+
+
+
+.footer {
+
+	// .footer__top
+
+	&__top {
+	}
+
+	// .footer__bottom
+
+	&__bottom {
+	}
+}
+.top-footer {
+
+	// .top-footer__container
+
+	&__container {
+	}
+
+	// .top-footer__body
+
+	&__body {
+	}
+
+	// .top-footer__content
+
+	&__content {
+	}
+
+	// .top-footer__title
+
+	&__title {
+	}
+
+	// .top-footer__text
+
+	&__text {
+	}
+
+	// .top-footer__items
+
+	&__items {
+	}
+
+	// .top-footer__item
+
+	&__item {
+	}
+
+	// .top-footer__sosials
+
+	&__sosials {
+	}
+}
+.item-top {
+
+	// .item-top__label
+
+	&__label {
+	}
+
+	// .item-top__list
+
+	&__list {
+	}
+
+	// .item-top__ite
+
+	&__ite {
+	}
+
+	// .item-top__link
+
+	&__link {
+	}
+}
+.sosials {
+
+	// .sosials__social
+
+	&__social {
+	}
+
+	// .sosials__label
+
+	&__label {
+	}
+
+	// .sosials__app
+
+	&__app {
+	}
+}
+.body-item {
+
+	// .body-item__icon-button
+
+	&__icon-button {
+	}
+}
+.icons-facebook {
+}
+.icons-instagram {
+}
+.icons-twatter {
+}
+.app {
+
+	// .app__button-android
+
+	&__button-android {
+	}
+
+	// .app__text
+
+	&__text {
+	}
+
+	// .app__first
+
+	&__first {
+	}
+
+	// .app__second
+
+	&__second {
+	}
+
+	// .app__button-apple
+
+	&__button-apple {
+	}
+
+	// .app__text-second
+
+	&__text-second {
+	}
+
+	// .app__first--second
+
+	&__first--second {
+	}
+
+	// .app__second--second
+
+	&__second--second {
+	}
+}
+.bottom-footer {
+
+	// .bottom-footer__container
+
+	&__container {
+	}
+
+	// .bottom-footer__copyright
+
+	&__copyright {
+	}
+}
