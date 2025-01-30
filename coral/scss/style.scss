@@ -1,0 +1,59 @@
+@use "sass:math";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,600&display=swap");
+@import "base/reset";
+@import "base/mixins";
+@import "base/fonts";
+
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+	& > main {
+		flex-grow: 1;
+	}
+}
+
+$mainColor: #000;
+$fontFamily: "Roboto";
+$fontSecond: "Open Sans";
+
+body {
+	background-color: #fff;
+	color: $mainColor;
+	font-family: $fontFamily, sans-serif;
+	.lock & {
+		overflow: hidden;
+	}
+}
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1320;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+[class*="__container"] {
+	max-width: #{$containerWidth}px;
+	margin: 0 auto;
+	padding-inline: 15px;
+}
+
+:root {
+	--header-height: clamp(53px, 2.231rem + 4.6vw, 90px);
+}
+
+
+@import "comon";
+@import "header";
+@import "home";
+@import "footer";
