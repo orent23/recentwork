@@ -1,0 +1,46 @@
+
+[class*="_icon-"]::before {
+	font-family: "icons";
+	speak: never;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+._icon-envelope:before {
+  content: "\e904";
+}
+._icon-location:before {
+  content: "\e905";
+}
+._icon-map-marker:before {
+  content: "\e905";
+}
+._icon-marker:before {
+  content: "\e905";
+}
+._icon-pin:before {
+  content: "\e905";
+}
+._icon-apple:before {
+  content: "\e900";
+}
+._icon-facebook:before {
+  content: "\e901";
+}
+._icon-google:before {
+  content: "\e902";
+}
+._icon-insta:before {
+  content: "\e903";
+}
+._icon-twiter:before {
+  content: "\e906";
+}
+._icon-why_1:before {
+  content: "\e907";
+}
+._icon-why_2:before {
+  content: "\e908";
+}
+._icon-why_3:before {
+  content: "\e909";
+}

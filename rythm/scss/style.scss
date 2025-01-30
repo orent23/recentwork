@@ -1,0 +1,90 @@
+@use "sass:math";
+// ==========================================================
+
+// Локальне підключення шрифтів
+@import "_icons.scss";
+@import "_fonts.scss";
+// Скидання стилів
+@import "_reset.scss";
+// Міксіни
+@import "_mixins.scss";
+
+// Налаштування адаптивної сітки ===============================================================================================================================================================================================================================================================================================
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1440;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1200;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 120;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+// ==========================================================
+$mainColor :rgba(18, 18, 18, 0.40);//for background
+$blackColor:#121212;//for text
+$OrangeColor: #FF6428;//for title
+
+
+html {
+	scroll-behavior: smooth; //Плавна прокрутка по target до потрібної секції
+}
+body {
+	font-family: "CalSans", sans-serif;
+	// @include adaptiveValue("column-gap", 44, 25, 0, $containerWidth,780);
+}
+.wrapper {
+	// min-height: 100%;
+	overflow: clip;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+	transition: all 0.3s;
+	.cart-open &,
+	.catalog-open & {
+		filter: blur(toRem(2));
+	}
+}
+/* ------------------------- */
+[class*="__container"] {
+	max-width: toRem($containerWidth);
+	padding-inline: toRem(15);
+	margin: 0 auto;
+}
+/* ------------------------- */
+.title {
+
+	color: $blackColor;
+	@include adaptiveValue(" font-size", 56, 25, 0, $containerWidth,320);
+	line-height: 1.2;
+	font-weight: 600;
+	font-family: "CalSans";
+	span{
+		@include adaptiveValue(" font-size", 56, 25, 0, $containerWidth,320);
+		color: $OrangeColor;
+	}
+	padding-bottom: toRem(30);
+	@media (max-width: 991.98px) {
+		padding-bottom: toRem(20);
+	}
+	@media (max-width: 680.98px) {
+		padding-bottom: toRem(10);
+	}
+}
+/* ------------------------ */
+// Компоненти
+
+// Окремі сторінки
+@import "_home.scss";
+
+// Окремі компоненти
+@import "_header.scss";
+@import "_footer.scss";
+
+
