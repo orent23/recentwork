@@ -1,0 +1,63 @@
+@use "sass:math";
+// ==========================================================
+// Локальне підключення шрифтів
+@import "_icons.scss";
+@import "fonts.scss";
+// Скидання стилів
+@import "reset.scss";
+// Міксіни
+@import "mixins.scss";
+// загальні стилі viewport============загальні стилі viewport============
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1240;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+
+
+
+$mainColor: rgba(0, 0, 0, 0.6);
+$fontFamily: "Satoshi";
+$fontSecond: "Integral";
+html {
+}
+body {
+	
+}
+.wrapper {
+	// min-height: 100%;
+	overflow: clip;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+	transition: all 0.3s;
+	.cart-open &,
+	.catalog-open & {
+		filter: blur(toRem(2));
+	}
+}
+/* ------------------------- */
+[class*="__container"] {
+	max-width: toRem($containerWidth);
+	padding-inline: toRem(15);
+	margin: 0 auto;
+}
+
+
+// Окремі сторінки
+@import "home";
+@import "products";
+// Окремі компоненти
+@import "header";
+@import "footer";
+

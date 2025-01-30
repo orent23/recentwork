@@ -1,0 +1,76 @@
+[class*="_icon-"]::before {
+	font-family: "icons";
+	speak: never;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+._icon-cross:before {
+  content: "\e915";
+  color: #535353;
+}
+._icon-account:before {
+  content: "\e900";
+}
+._icon-arrow-down:before {
+  content: "\e901";
+}
+._icon-arrow-right:before {
+  content: "\e902";
+}
+._icon-arrow-up:before {
+  content: "\e903";
+}
+._icon-backet:before {
+  content: "\e904";
+}
+._icon-cat:before {
+  content: "\e905";
+}
+._icon-check:before {
+  content: "\e906";
+}
+._icon-facebook:before {
+  content: "\e907";
+	color: #fff;
+}
+._icon-insta:before {
+  content: "\e908";
+}
+._icon-inus:before {
+  content: "\e909";
+}
+._icon-like:before {
+  content: "\e90a";
+}
+._icon-mesage:before {
+  content: "\e90b";
+}
+._icon-next:before {
+  content: "\e90c";
+}
+._icon-plus:before {
+  content: "\e90d";
+}
+._icon-previous:before {
+  content: "\e90e";
+}
+._icon-reciept:before {
+  content: "\e90f";
+}
+._icon-search:before {
+  content: "\e910";
+}
+._icon-settings:before {
+  content: "\e911";
+}
+._icon-star:before {
+  content: "\e912";
+}
+._icon-teleshka:before {
+  content: "\e913";
+}
+._icon-twiter:before {
+  content: "\e914";
+}
